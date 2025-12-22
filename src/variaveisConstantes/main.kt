@@ -1,5 +1,3 @@
-package variaveisConstantes
-
 fun main(){
     val txt1 = "Val é uma variável imutável"
     var txt2 = "Var é uma variável mutavel"
