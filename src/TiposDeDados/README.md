@@ -101,3 +101,54 @@
     - **`toChar()`**
 
   Se quiser transformar qualquer dado em uma string, podemos usar a função **`toString()`**
+
+### 🟢 Questão Fácil – Variáveis e Tipos de Dados
+
+Crie um código em Kotlin que:
+
+- Declare uma variável do tipo `Int` chamada `idade` e atribua a ela o valor `18`
+- Declare uma variável do tipo `String` chamada `nome` e atribua seu nome
+- Imprima no console uma frase no seguinte formato:
+
+    ```bash
+    Meu nome é <nome> e tenho<idade> anos.
+    ```
+
+
+---
+
+### 🟡 Questão Média – Variáveis e Tipos de Dados
+
+Crie um programa em Kotlin que:
+
+- Declare três variáveis:
+    - `precoProduto` do tipo `Double`
+    - `quantidade` do tipo `Int`
+    - `valorTotal` do tipo `Double`
+- Calcule o valor total multiplicando o preço pela quantidade
+- Imprima o resultado no console com duas casas decimais, por exemplo:
+
+    ```bash
+    Valor total da compra:R$25.50
+    ```
+
+
+---
+
+### 🔴 Questão Difícil – Variáveis e Tipos de Dados
+
+Crie um código em Kotlin que:
+
+- Declare variáveis para armazenar:
+    - Um nome (`String`)
+    - Uma idade (`Int`)
+    - Uma altura (`Double`)
+    - Um valor que indique se a pessoa é estudante (`Boolean`)
+- Utilize **interpolação de strings** para imprimir todas as informações em uma única frase
+- Converta a idade para `Double` e mostre esse valor junto na impressão
+
+Exemplo de saída (os valores podem ser diferentes):
+
+```bash
+Nome:Ana,Idade:20,Idade em Double:20.0,Altura:1.65,Estudante:true
+```
