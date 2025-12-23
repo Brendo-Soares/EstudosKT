@@ -1,4 +1,4 @@
-- Tipos inteiros são ****números que não possuem qualquer parte decimal:
+- Tipos inteiros são números que não possuem qualquer parte decimal:
     - byte - o byte pode armazenar números inteiros de -128 a 127. Pode ser usado para economizar memória quando tiver certeza que o valor estará entre -127 e 128
     - Short - o short pode armazenar inteiros de -32768 e 32767
     - Int - Pode armazenar de -2147483648 a 2147483648
